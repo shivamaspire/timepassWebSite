@@ -1,0 +1,323 @@
+﻿body
+{
+}
+.image
+{
+    background: url(http://localhost:13743/timepassWebSite/photos/header.jpg) repeat-y left;
+    border-radius: 30px;
+}
+.contentimage
+{
+    background: url(http://localhost:13743/timepassWebSite/photos/middle.jpg) left;
+    border-radius: 50px;
+}
+
+.scene
+{
+    float: left;
+    text-transform: inherit;
+    line-height: normal;
+    position: static;
+    width: auto;
+    height: auto;
+    letter-spacing: 0.5em;
+    word-spacing: 1em;
+    font-family: Forte;
+    font-size: 60px;
+    font-weight: lighter;
+    font-style: normal;
+    font-variant: normal;
+    color: #625B59;
+}
+.textformat a
+{
+    color: #625B59;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Andalus";
+    font-size: 35px;
+}
+
+.footer
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Andalus";
+    font-size: 20px;
+    float: left;
+}
+
+.one
+{
+    position: relative;
+    margin-left: 200px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 50px;
+    background: url(http://localhost:13743/timepassWebSite/photos/middle.jpg);
+    width: 50px;
+    height: 200px;
+    color: Black;
+    -moz-transition: all 100ms ease;
+    -transition: all 100ms ease;
+}
+.one1
+{
+    position: relative;
+    margin-left: 100px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    background: url(http://localhost:13743/timepassWebSite/photos/middle.jpg);
+    border-radius: 50px;
+    width: 50px;
+    height: 200px;
+    color: Black;
+    -moz-transition: all 100ms ease;
+    -transition: all 100ms ease;
+}
+/*.one:hover
+{
+    -moz-transform: scale(1.5);
+    -transform: scale(1.5);
+    background: transparent;
+}*/
+.fadein
+{
+    position: relative;
+    height: 320px;
+    width: 320px;
+    box-shadow: 150px 0px 40px rgba(0,0,0,0.4);
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+
+.fadein img
+{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+#textdemo
+{
+    text-align: right;
+    vertical-align: top;
+}
+#textdemo tr td
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #808080;
+    text-align: right;
+}
+.btnstyle
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #808080;
+    box-shadow: 20px 0 0 rgba(255,255,255,0.7);
+}
+#textdemo tr td h1
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #808080;
+    vertical-align: bottom;
+}
+#textdemo tr td h1 span
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #808080;
+    font-style: italic;
+}
+/*registration css*/
+#one
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #808080;
+    border-color: transparent;
+    border-left: 0;
+}
+
+.register
+{
+    font-family: Algerian;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #003366;
+    vertical-align: middle;
+    text-align: left;
+    text-decoration: underline;
+    visibility: visible;
+    padding-left: 30px;
+}
+.register span
+{
+    font-family: @Dotum;
+    font-size: 60px;
+}
+
+
+#one .two
+{
+    padding-left: 20px;
+}
+#one .three
+{
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 20px;
+    width: 35%;
+}
+#one .four
+{
+    width: 50%;
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #626262;
+    text-align: left;
+    vertical-align: middle;
+}
+#one tr td p
+{
+    font-family: 'Script MT Bold';
+    font-size: 50px;
+    color: #003366;
+    text-align: center;
+    padding-left: 100px;
+    font-style: italic;
+}
+#one .three .valid
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #808080;
+    width: 130px;
+    box-shadow: 20px 0 0 rgba(255,255,255,0.7);
+}
+#one .two .cancel
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #808080;
+    width: 130px;
+    box-shadow: 20px 0 0 rgba(255,255,255,0.7);
+}
+/* follow up css*/
+#up
+{
+    text-align: center;
+    margin-left: 150px;
+    color: #625B59;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Andalus";
+    font-size: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.welcome
+{
+    text-align: right;
+    padding-right: 70px;
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #808080;
+    box-shadow: 20px 0 0 rgba(255,255,255,0.7);
+}
+#down
+{
+    color: #625B59;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Andalus";
+    font-size: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    width: 100%;
+}
+.selection
+{
+    font-family: Algerian;
+    font-size: 40px;
+    font-variant: inherit;
+    color: #000099;
+    text-align: justify;
+    text-indent: 12px;
+    line-height: 25px;
+    padding: 50px;
+}
+
+/*....AdminDetails...*/
+.textdemo1 tr td h1
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #808080;
+    vertical-align: bottom;
+}
+.textdemo1 tr td h1 span
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #808080;
+    font-style: italic;
+}
+.textdemo1 .textstyle
+{
+    text-align: right;
+    padding-right: 10px;
+}
+.textdemo1 tr td
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #808080;
+}
+.textdemo1
+{
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #808080;
+    vertical-align: bottom;
+}
+/* popupbox..............*/
+#popbox
+{
+    display: none;
+    position: fixed;
+    _position: absolute; /* hack for internet explorer 6 */
+    height: 300px;
+    width: 600px;
+    background: gray;
+    left: 300px;
+    top: 150px;
+    z-index: 100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: 100px; /* additional features, can be omitted */
+    border: 5px solid dark-gray;
+    padding: 15px;
+    font-size: 15px;
+    -moz-box-shadow: 0 0 5px #ff0000;
+    -webkit-box-shadow: 0 0 5px #ff0000;
+    box-shadow: 0 0 5px black;
+}
+.accountborder
+{
+    box-shadow: 40px 20px 35px rgba(0,0,0,0.4);
+    border-raidus: 10px;
+}
